@@ -1,0 +1,4 @@
+parte cima background-image: url("https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/http://souice.com.br/wp-content/uploads/2019/09/topo-segundo-bloco-souice.png"); height: 163px;
+
+parte baixo
+background-image: url("https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/http://souice.com.br/wp-content/uploads/2019/09/topo-terceiro-bloco-souice.png"); height: 241px;
