@@ -19,6 +19,46 @@
     list-style: none;
 }
 
+.cabecalho-menu a{
+    color: #848484;
+    padding: 5px 10px;
+    border-left: 4px solid transparent;
+}
+
+.cabecalho-menu a:hover{
+    border-left: 4px solid #E40613;
+}
+
 .cabecalho-intro{
     background-color: #E40613;
+    position: relative;
 }
+
+#apresentacao{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-titulo {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.cabecalho-titulo h1{
+    line-height: 45px;
+}
+
+.cabecalho-titulo h1::before{
+    content: "Sou";
+    font-size: 2rem;
+    padding-right: 10px;
+}
+
+.cabecalho-titulo p{
+    font-size: 1.2rem;
+    max-width: 30ch;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+

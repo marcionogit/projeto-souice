@@ -9,44 +9,64 @@
 </head>
 <body>
 
-    <header>
-        <div class="cabecalho">
-            <img src="./img/LOGOTIPO - SOU ICE 1920X1080 4 1.png" alt="">
-            <nav>
-                <ul class="cabecalho-menu">
-                    <li><a href="#produtos">PRODUTOS</a></li>
-                    <li><a href="#contatos">CONTATOS</a></li>
-                    <li><a href="#endereco">ENDEREÇO</a></li>
-                </ul>
-            </nav>
+<header>
+    <div class="cabecalho">
+        <img src="./img/LOGOTIPO - SOU ICE 1920X1080 4 1.png" alt="">
+        <nav>
+            <ul class="cabecalho-menu">
+                <li><a href="#produtos">PRODUTOS</a></li>
+                <li><a href="#contatos">CONTATOS</a></li>
+                <li><a href="#endereco">ENDEREÇO</a></li>
+            </ul>
+        </nav>
+    </div>
+    <ul class="slider">
+        <li>
+            <input type="radio" id="slide1"  name="slide" checked placeholder="frezer-congelado">
+                <label for="slide1"></label>
+                <img src="./img/loja1.png" alt="frezer-congelados-esquerdo">
+        </li>
+        <li>
+            <input type="radio" id="slide2" name="slide" placeholder="frezer-congelado-direito">
+            <label for="slide2"></label>
+                <img src="./img/loja2.png" alt="">
+        </li>
+        <li>
+            <input type="radio" id="slide3" name="slide" placeholder="fachada">
+            <label for="slide3"></label>
+                <img src="./img/loja3.png" alt=""/>
+        </li>
+    </ul>
+
+    <span class="header-template-cima"></span>
+
+    <section class="cabecalho-intro">
+        <div id="apresentacao">
+            <img src="./img/picolé-cabecalho.png" alt="mão segurando picolé">
+            <div class="cabecalho-titulo">
+                <h1 class="amarelo">GOSTOSO,</h1>
+                <h1>BARATO...</h1>
+                <p>
+                    <strong class="amarelo">Sou Ice</strong> é uma loja especializada em
+                    sorvetes e congelados que oferece
+                    uma ampla linha de produtos de 
+                    <strong class="amarelo">qualidade, variedade e preço justo.</strong></p>
+            </div>
         </div>
-        <ul class="slider">
-            <li>
-                <input type="radio" id="slide1"  name="slide" checked placeholder="frezer-congelado">
-                 <label for="slide1"></label>
-                 <img src="./img/loja1.png" alt="frezer-congelados-esquerdo">
-            </li>
-            <li>
-                <input type="radio" id="slide2" name="slide" placeholder="frezer-congelado-direito">
-                <label for="slide2"></label>
-                  <img src="./img/loja2.png" alt="">
-            </li>
-            <li>
-                <input type="radio" id="slide3" name="slide" placeholder="fachada">
-                <label for="slide3"></label>
-                  <img src="./img/loja3.png" alt=""/>
-            </li>
-        </ul>
-        <span class="header-template-cima"></span>
-        <section class="cabecalho-intro">
-            <span class="header-template-baixo"></span>
-        </section>
-    </header>
-    <main>
-        <section class="amarelo">
-            <span class="main-template-cima"></span>
-        </section>
-    </main>
+        
+
+
+        <span class="header-template-baixo"></span>
+    </section>
+</header>
+
+
+<main id="produtos" class="produtos">
+    <h2>PRODUTOS</h2>
+    <section>
+        <span class="main-template-cima"></span>
+    </section>
+</main>
     
     
 
