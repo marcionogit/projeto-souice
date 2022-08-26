@@ -1,13 +1,20 @@
 #produtos{
-    display: flex;
-    justify-content: center;
+    font-size: 3.5rem;
+    color: #E40613;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .produtos{
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 995px;
 }
 
-.produtos h2{
-    font-size: 3rem;
-    color: #E40613;
+.produtos img{
+    max-width: 200px;
+    height: 240px;
 }
+
