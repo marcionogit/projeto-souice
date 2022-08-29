@@ -21,4 +21,5 @@
     max-width: 100%;
     display: block;
     background-position: center right;
+    grid-column: 1 / 3;
 }

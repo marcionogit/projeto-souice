@@ -13,8 +13,60 @@
     max-width: 995px;
 }
 
+.produtos-subtitulo{
+    text-align: center;
+    font-size: 2rem;
+    max-width: 20ch;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #505052;
+}
+
 .produtos img{
     max-width: 200px;
     height: 240px;
 }
 
+#fundo-amarelo{
+    background-color: #FECB00;
+}
+
+.fundo-amarelo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.fundo-amarelo-grid img{
+    max-width: 100%;
+}
+
+.fundo-amarelo-grid span{
+    color:#E40613;
+}
+
+.fundo-amarelo-grid h3{
+    font-size: 3.5rem;
+    max-width: 9ch;
+    margin: auto;
+    text-align: center;
+}
+
+#condicoes p{
+    color: white;
+    max-width: 21ch;
+    text-align: center;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+#tudo-oq-precisa{
+    font-size: 3.5rem;
+    text-align: right;
+    max-width: 10ch;
+    color: white;
+
+}

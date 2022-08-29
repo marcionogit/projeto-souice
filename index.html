@@ -22,14 +22,14 @@
     </div>
     <ul class="slider">
         <li>
-            <input type="radio" id="slide1"  name="slide" checked placeholder="frezer-congelado">
-                <label for="slide1"></label>
-                <img src="./img/loja1.png" alt="frezer-congelados-esquerdo">
-        </li>
-        <li>
             <input type="radio" id="slide2" name="slide" placeholder="frezer-congelado-direito">
             <label for="slide2"></label>
                 <img src="./img/loja2.png" alt="">
+        </li>
+        <li>
+            <input type="radio" id="slide1"  name="slide" checked placeholder="frezer-congelado">
+                <label for="slide1"></label>
+                <img src="./img/loja1.png" alt="frezer-congelados-esquerdo">
         </li>
         <li>
             <input type="radio" id="slide3" name="slide" placeholder="fachada">
@@ -41,17 +41,17 @@
     <span class="header-template-cima"></span>
 
     <section class="cabecalho-intro">
-        <div id="apresentacao">
-            <img src="./img/picolé-cabecalho.png" alt="mão segurando picolé">
-            <div class="cabecalho-titulo">
-                <h1 class="amarelo">GOSTOSO,</h1>
-                <h1>BARATO...</h1>
-                <p>
-                    <strong class="amarelo">Sou Ice</strong> é uma loja especializada em
-                    sorvetes e congelados que oferece
-                    uma ampla linha de produtos de 
-                    <strong class="amarelo">qualidade, variedade e preço justo.</strong></p>
-            </div>
+     
+        <img src="./img/picolé-cabecalho.png" alt="mão segurando picolé" id="position-img">
+        <div class="cabecalho-titulo">
+            <h1 class="amarelo">GOSTOSO,</h1>
+            <h1>BARATO...</h1>
+            <p>
+                <strong class="amarelo">Sou Ice</strong> é uma loja especializada em
+                sorvetes e congelados que oferece
+                uma ampla linha de produtos de 
+                <strong class="amarelo">qualidade, variedade e preço justo.</strong>
+            </p>
         </div>
         
 
@@ -63,7 +63,8 @@
 
 <main >
     <h2 id="produtos">PRODUTOS</h2>
-
+    <h3 class="produtos-subtitulo">São mais de 150                       
+        dos mais variados.</h3>
     <section class="produtos">
         <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_300,h_350/https://souice.com.br/wp-content/uploads/2020/08/LINHA-RETRO-SOU-ICE.png" alt="">
         <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_300,h_350/https://souice.com.br/wp-content/uploads/2020/08/LINHA-FRUTAS-SOU-ICE.png" alt="">
@@ -85,7 +86,26 @@
         <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_300,h_350/https://souice.com.br/wp-content/uploads/2020/08/LINHA-POTES-SOU-ICE.png" alt="">
         <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_300,h_350/https://souice.com.br/wp-content/uploads/2020/08/LINHA-CONGELADOS-SOU-ICE-1.png" alt="">
     </section>
-    <span class="main-template-cima"></span>
+    <div id="fundo-amarelo">
+        <span class="main-template-cima"></span>
+        <div class="fundo-amarelo-grid">
+            <img src="./img/picolés-amarelo.png" alt="">
+            <img src="./img/preço.png" alt="">
+            <div id="condicoes">
+                <h3><span>
+                    Condições
+                        de VAREJO <br>e ATACADO.
+                </span></h3>
+                <p>Além de varejo trabalhamos com atacado e essa estratégia permite que nossa loja proporcione um preço justo aos nossos clientes</p>
+            </div>
+            <img src="./img/cone-amarelo.png" alt="">
+            <img src="./img/pote-amarelo.png" alt="">
+            <p id="tudo-oq-precisa"><span>TUDO</span> o que
+                você <span>PRECISA</span>
+               <span>EM</span> um só
+               <span>LUGAR!</span></p>
+        </div>
+    </div>
 </main>
     
     
