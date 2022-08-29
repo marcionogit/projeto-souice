@@ -25,6 +25,7 @@
 .produtos img{
     max-width: 200px;
     height: 240px;
+    width: 100%;
 }
 
 #fundo-amarelo{
