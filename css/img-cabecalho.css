@@ -2,8 +2,8 @@
 
 .slider {
     display: block;
-    height: 293px;
-    max-width: 1300px;
+    height: 325px;
+    max-width: 1450px;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -18,7 +18,8 @@
 
 .slider img {
     margin: 0 auto;
-    height: 294px;
+  
+    height: 327px;
     width: 100%;
     vertical-align: top;
     object-fit: cover;
