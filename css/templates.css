@@ -61,3 +61,9 @@
     background-position: center right;
     grid-column: 1 / 3;
 }
+
+@media(max-width:400px){
+    .main-template-cima{
+        margin-top: -80px;
+    }
+}
