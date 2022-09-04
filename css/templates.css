@@ -4,7 +4,38 @@
     height: 163px;
     display: block;
     background-position: center ;
-   
+    margin-top: 320px;
+}
+
+@media(max-width:1100px){
+    .header-template-cima{
+        margin-top: 250px;
+    }
+}
+
+@media(max-width:850px){
+    .header-template-cima{
+        margin-top: 200px;
+    }
+}
+
+@media(max-width:650px){
+    .header-template-cima{
+        margin-top: 150px;
+    }
+}
+
+@media(max-width:550px){
+    .header-template-cima{
+        margin-top: 100px;
+        background-position: right;
+    }
+}
+
+@media(max-width:400px){
+    .header-template-cima{
+        margin-top: 30px;
+    }
 }
 
 .header-template-baixo{
@@ -13,6 +44,13 @@
     max-width: 100%;
     display: block;
     background-position: center;
+    z-index: -1;
+}
+
+@media(max-width:550px){
+    .header-template-baixo{
+        margin-bottom: -150px;
+    }
 }
 
 .main-template-cima{

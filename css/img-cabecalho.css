@@ -2,13 +2,12 @@
 
 .slider {
     display: block;
-    height: 325px;
+
     max-width: 1450px;
     width: 100%;
     margin: 0 auto;
     position: relative;
     background-color: #000119;
-    margin-bottom: 30px;
 }
 
 .slider li {
@@ -18,11 +17,10 @@
 
 .slider img {
     margin: 0 auto;
-  
-    height: 327px;
+    max-height: 327px;
     width: 100%;
     vertical-align: top;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .slider input {
@@ -34,7 +32,7 @@
     bottom: 10px;
     cursor: pointer;
     display: block;
-   height: 20px;
+    height: 20px;
     position: absolute;
     width: 20px;
     z-index: 4;
@@ -71,3 +69,4 @@
     z-index: 10;
     transition: all 1s ease-in-out;
 }
+

@@ -1,3 +1,7 @@
+header{
+    background-color: #000119;
+}
+
 .cabecalho{
     background-color: white;
     display: grid;
@@ -13,11 +17,6 @@
     font-size: 15px;
     }
 }
-@media(max-width:550px){
-    .cabecalho-titulo {
-        font-size: 1.0rem;
-    }
-}
 
 .cabecalho img{
     padding: 20px;
@@ -31,7 +30,12 @@
     list-style: none;
 }
 
-
+@media(max-width:810px){
+    .cabecalho-menu{
+        gap: 10px;
+        justify-content: end;
+    }
+}
 
 .cabecalho-menu a{
     color: #848484;
@@ -44,6 +48,7 @@
 }
 
 .cabecalho-intro{
+
     background-color: #E40613;
     position: relative;
     text-align: center;
@@ -53,16 +58,6 @@
     position: absolute;
     max-width: 500px;
     top: -50px;
-}
-
-@media(max-width:1000px){
-    #position-img{
-    display: none;
-    }
-
-    .cabecalho-titulo{
-    margin-left: -100px;
-    }
 }
 
 .cabecalho-titulo {
@@ -90,3 +85,28 @@
     margin: auto;
 }
 
+@media(max-width:1000px){
+    #position-img{
+    display: none;
+    }
+
+    .cabecalho-titulo{
+    margin-left: -100px;
+
+    }
+}
+@media(max-width:550px){
+    .cabecalho-titulo{
+        height: 250px;
+    }
+
+    .cabecalho-titulo h1{
+        font-size: 2.0rem;
+    }
+
+    .cabecalho-titulo p {
+        font-size: 1.3rem;
+    }
+
+
+}
