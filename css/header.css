@@ -36,6 +36,12 @@ header{
         justify-content: end;
     }
 }
+@media(max-width:400px){
+    .cabecalho{
+        grid-template-columns: 50px 1fr;
+        font-size: 10px;
+    }
+}
 
 .cabecalho-menu a{
     color: #848484;

@@ -158,7 +158,11 @@ main{
         margin-left: -50px;
     }
     #img-pote img{
-        max-width: 130px;
+        max-width: 150px;
+    }
+    #img-pote{
+        justify-items: baseline;
+        margin-left: 15px;
     }
 }
 
