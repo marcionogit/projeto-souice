@@ -1,0 +1,109 @@
+footer{
+    background-color: #F07D00;
+}
+
+footer aside{
+    padding: 100px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: 2rem;
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer aside ul, li,  .rede{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer a:hover{
+    color: rgb(180, 176, 176);
+}
+
+footer h2{
+    font-size: 5rem;
+}
+footer h3{
+    margin: 20px 0px;
+}
+
+footer img{
+    padding-bottom: 5px;
+}
+
+footer section{
+    width: 100%;
+    background-color: #E40613;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+footer section h2{
+   font-size: 2.5rem;
+}
+
+footer section h3{
+    margin: 0px;
+}
+
+@media(max-width:800px){
+    footer h2{
+        font-size: 3.5rem;
+    }
+}
+
+@media(max-width:650px){
+    footer aside{
+        padding-top: 30px;
+    }
+
+    footer h3{
+        font-size: 1.5rem;
+    }
+
+    footer a {
+        font-size: 1rem;
+    }
+
+    footer img{
+        width: 20px;
+    }
+}
+
+@media(max-width:500px){
+    footer aside{
+        padding-top: 10px;
+    }
+
+    footer h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width:400px){
+    footer aside{
+        padding-top: 0px;
+    }
+
+    footer h2{
+        font-size: 2rem;
+    }
+
+    footer h3{
+        font-size:1.2rem;
+    }
+    footer p{
+        font-size: 1rem;
+    }
+}
