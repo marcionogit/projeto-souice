@@ -30,6 +30,7 @@ header{
 
 .cabecalho-menu a:hover{
     border-left: 4px solid #E40613;
+    transition: 0.5s;
 }
 
 .cabecalho-intro{
