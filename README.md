@@ -29,4 +29,4 @@ Você também pode acessar o site diretamente através do seguinte link: [Sou Ic
 
 
 
-Agradecemos por visitar meu repositório espero que você tenha gostado!
+Agradeço por visitar meu repositório espero que você tenha gostado!
